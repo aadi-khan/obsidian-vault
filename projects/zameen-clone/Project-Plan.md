@@ -146,3 +146,13 @@ inquiries       → messages to agents
 - Images: use lazy loading + WebP optimization
 - Currency: PKR (Lakh / Crore formatting)
 - Area units: Marla (most popular), Kanal, Square Foot
+
+## 10. Progress
+
+- ✅ Database seeded with sample data (users, agency, properties)
+- ✅ Authentication flow (register, login, JWT)
+- ✅ Property listing page (`/buy`) fetches real data
+- ✅ Property detail page (`/property/[id]`) fetches real data
+- ✅ Image upload backend route (`/api/upload`) with Cloudinary integration
+- ✅ Frontend upload helper and API proxy
+- ✅ Favorites toggle uses centralized API client with JWT
