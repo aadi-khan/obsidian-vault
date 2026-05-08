@@ -9,32 +9,32 @@ Pakistan's biggest property portal. Users search for properties to **buy, rent, 
 ## 2. Core Functionalities
 
 ### User Side
-- [ ] **Property Search** — Buy / Rent / Projects tabs
-- [ ] **City Selection** — Islamabad, Lahore, Karachi, etc.
-- [ ] **Location Filtering** — Sub-locations within cities
-- [ ] **Property Type** — Homes, Plots, Commercial
-- [ ] **Size Filter** — Area in Marla / Kanal / Square Feet
-- [ ] **Price Range Filter** — Min/Max price slider
-- [ ] **Bedrooms Filter** — 1, 2, 3, 4, 5+ bedrooms
-- [ ] **More Filters** — Corner plot, Park facing, Possession status, etc.
-- [ ] **Property ID Search** — Direct search by listing ID
-- [ ] **Property Listing Cards** — Price, location, beds, area, photo
-- [ ] **Property Detail Page** — Full description, photos gallery, specs, map location
-- [ ] **Map View** — Property locations on map
-- [ ] **Saved Searches / Favorites** — Save listings
-- [ ] **Agent Contact** — Inquiry form, call/message agent
-- [ ] **New Projects** — Developer projects with payment plans
+- [x] **Property Search** — Buy / Rent / Projects tabs
+- [x] **City Selection** — Islamabad, Lahore, Karachi, etc.
+- [x] **Location Filtering** — Sub-locations within cities
+- [x] **Property Type** — Homes, Plots, Commercial
+- [x] **Size Filter** — Area in Marla / Kanal / Square Feet
+- [x] **Price Range Filter** — Min/Max price slider
+- [x] **Bedrooms Filter** — 1, 2, 3, 4, 5+ bedrooms
+- [x] **More Filters** — Corner plot, Park facing, Possession status, etc.
+- [x] **Property ID Search** — Direct search by listing ID
+- [x] **Property Listing Cards** — Price, location, beds, area, photo
+- [x] **Property Detail Page** — Full description, photos gallery, specs, map location
+- [x] **Map View** — Property locations on map
+- [x] **Saved Searches / Favorites** — Save listings
+- [x] **Agent Contact** — Inquiry form, call/message agent
+- [x] **New Projects** — Developer projects with payment plans
 
 ### Tools (Utility Pages)
 - [ ] **Home Loan Calculator**
-- [ ] **Area Unit Converter** (Marla ↔ Kanal ↔ Sq Ft)
+- [ ] **Area Unit Converter** (Marla Kanal Sq Ft)
 - [ ] **Land Record Pages**
 - [ ] **Construction Cost Calculator**
 
 ### Admin / Agency Side
-- [ ] **Property Listing Form** — Add/edit/delete property
-- [ ] **Agency Profile** — Agency info, listed properties
-- [ ] **Titanium Agencies** showcase
+- [x] **Property Listing Form** — Add/edit/delete property
+- [x] **Agency Profile** — Agency info, listed properties
+- [x] **Titanium Agencies** showcase
 
 ---
 
@@ -101,31 +101,31 @@ inquiries       → messages to agents
 ## 7. Phases
 
 ### Phase 1 — MVP (2-3 weeks)
-- Homepage with hero search
-- Buy listings with filters
-- Property detail page
-- Basic auth (email/password)
-- Contact agent form
+- [x] Homepage with hero search
+- [x] Buy listings with filters
+- [x] Property detail page
+- [x] Basic auth (email/password)
+- [x] Contact agent form
 
 ### Phase 2 — Core Features (2-3 weeks)
-- Rent listings
-- New Projects page
-- Favorites / saved searches
-- Agent dashboard
-- Add property form
-- Map view
+- [x] Rent listings
+- [x] New Projects page
+- [x] Favorites / saved searches
+- [x] Agent dashboard
+- [x] Add property form
+- [x] Map view
 
 ### Phase 3 — Tools + Polish (1-2 weeks)
-- Home Loan Calculator
-- Area Unit Converter
-- Responsive mobile app-quality UI
-- Performance optimization
+- [ ] Home Loan Calculator
+- [ ] Area Unit Converter
+- [ ] Responsive mobile app-quality UI
+- [ ] Performance optimization
 
 ### Phase 4 — Scale (ongoing)
-- Admin panel
-- Payment integration
-- Advanced search / AI recommendations
-- Mobile apps (React Native)
+- [ ] Admin panel
+- [ ] Payment integration
+- [ ] Advanced search / AI recommendations
+- [ ] Mobile apps (React Native)
 
 ---
 
@@ -149,11 +149,20 @@ inquiries       → messages to agents
 
 ## 10. Progress
 
-- ✅ Database seeded with sample data (users, agency, properties)
-- ✅ Authentication flow (register, login, JWT)
-- ✅ Property listing page (`/buy`) fetches real data
-- ✅ Property detail page (`/property/[id]`) fetches real data
-- ✅ Image upload backend route (`/api/upload`) with Cloudinary integration
-- ✅ Frontend upload helper and API proxy
-- ✅ Favorites toggle uses centralized API client with JWT
-- ✅ Dashboard UI with sidebar navigation (Overview, Properties, Favorites, Inquiries, Profile)
+- [x] Database seeded with sample data (users, agency, properties)
+- [x] Authentication flow (register, login, JWT)
+- [x] Property listing page (`/buy`) fetches real data
+- [x] Property detail page (`/property/[id]`) fetches real data
+- [x] Image upload backend route (`/api/upload`) with Cloudinary integration
+- [x] Frontend upload helper and API proxy
+- [x] Favorites toggle uses centralized API client with JWT
+- [x] Dashboard UI with sidebar navigation (Overview, Properties, Favorites, Inquiries, Profile)
+
+### Remaining Tasks
+- [ ] Implement Edit Property form (PUT `/api/properties/:id`)
+- [ ] Implement Delete Property (DELETE `/api/properties/:id`)
+- [ ] Add Map view to property cards (Leaflet integration)
+- [ ] Implement Profile update API call
+- [ ] Add responsive sidebar collapse on mobile
+- [ ] Home Loan Calculator tool
+- [ ] Area Unit Converter tool
