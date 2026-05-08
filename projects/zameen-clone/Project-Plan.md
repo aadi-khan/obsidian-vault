@@ -156,3 +156,4 @@ inquiries       → messages to agents
 - ✅ Image upload backend route (`/api/upload`) with Cloudinary integration
 - ✅ Frontend upload helper and API proxy
 - ✅ Favorites toggle uses centralized API client with JWT
+- ✅ Dashboard UI with sidebar navigation (Overview, Properties, Favorites, Inquiries, Profile)
